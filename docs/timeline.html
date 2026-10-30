@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Fewer frontier AI models are open-weights: 39% in 2019–21, 11% since 2022</title><style>
+:root { --surface:#fcfcfb; --ink:#0b0b0b; --ink2:#52514e; --grid:#e6e5e1; }
+* { box-sizing:border-box; }
+body { margin:0; background:var(--surface); color:var(--ink); font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; line-height:1.45; }
+main { max-width:1080px; margin:0 auto; padding:28px 20px 48px; }
+h1 { font-size:1.55rem; line-height:1.2; margin:0 0 8px; font-weight:650; }
+.sub { color:var(--ink2); margin:0 0 18px; max-width:62em; }
+.notes { color:var(--ink2); font-size:.92rem; max-width:62em; }
+.notes li { margin:4px 0; }
+details { margin:18px 0; }
+summary { cursor:pointer; color:var(--ink2); font-size:.92rem; }
+table { border-collapse:collapse; font-size:.85rem; margin-top:8px; }
+th, td { border-bottom:1px solid var(--grid); padding:4px 10px; text-align:left; }
+footer { margin-top:26px; padding-top:14px; border-top:1px solid var(--grid); color:var(--ink2); font-size:.85rem; }
+.tag { display:inline-block; font-size:.75rem; color:var(--ink2); border:1px solid var(--grid); border-radius:10px; padding:1px 8px; margin-bottom:10px; }
+.nav { font-size:.85rem; margin-bottom:6px; }
+a { color:#256abf; }
+.cards a { display:block; padding:14px 16px; margin:10px 0; border:1px solid var(--grid); border-radius:8px; text-decoration:none; color:var(--ink); }
+.cards a span { display:block; color:var(--ink2); font-size:.9rem; margin-top:2px; }
+</style></head>
+<body><main>
+<div class="nav"><a href="index.html">&larr; All charts</a></div>
+<span class="tag">Timeline (scaled)</span>
+<h1>Fewer frontier AI models are open-weights: 39% in 2019–21, 11% since 2022</h1>
+<p class="sub">Each dot is a frontier model (top 5 by training compute when released), positioned by release date and by the lab that built it. Blue = weights downloadable, orange = closed.</p>
+<div style="height:660px; width:100%;">                        <script>window.PlotlyConfig = {MathJaxConfig: 'local'};</script>
+        <script charset="utf-8" src="plotly.min.js"></script>                <div id="cdeeeabb-0dd1-4f69-a214-3236f1f2813d" class="plotly-graph-div" style="height:100%; width:100%;"></div>            <script>                window.PLOTLYENV=window.PLOTLYENV || {};                                if (document.getElementById("cdeeeabb-0dd1-4f69-a214-3236f1f2813d")) {                    Plotly.newPlot(                        "cdeeeabb-0dd1-4f69-a214-3236f1f2813d",                        [{"customdata":[["ResNeXt-101 32x48d","Facebook","Open weights (non-commercial)","8.7e+21 FLOP"],["BigGAN-deep 512x512","Heriot-Watt University,DeepMind","Open weights (unrestricted)","1.8e+21 FLOP"],["GPT-2 (355M)","OpenAI","Open weights (unrestricted)","2.3e+21 FLOP"],["GPT-2 (774M)","OpenAI","Open weights (unrestricted)","5.0e+21 FLOP"],["Grover-Mega","University of Washington","Open weights (unrestricted)","4.6e+21 FLOP"],["XLNet","Carnegie Mellon University (CMU),Google Brain","Open weights (unrestricted)","6.2e+21 FLOP"],["RoBERTa Large","Facebook,University of Washington","Open weights (unrestricted)","8.5e+21 FLOP"],["T5-11B","Google","Open weights (unrestricted)","3.3e+22 FLOP"],["T5-3B","Google","Open weights (unrestricted)","9.0e+21 FLOP"],["XLM-RoBERTa","Facebook AI","Open weights (non-commercial)","2.1e+22 FLOP"],["iGPT-XL","OpenAI","Open weights (unrestricted)","3.3e+22 FLOP"],["mT5-XXL","Google,Google Research","Open weights (unrestricted)","8.2e+22 FLOP"],["Switch","Google","Open weights (unrestricted)","8.2e+22 FLOP"],["Falcon-180B","Technology Innovation Institute","Open weights (restricted use)","3.8e+24 FLOP"],["Nemotron-4 340B","Nvidia","Open weights (unrestricted)","1.8e+25 FLOP"],["Llama 3.1-405B","Meta AI","Open weights (restricted use)","3.8e+25 FLOP"],["Llama Nemotron Ultra 253B","Nvidia","Open weights (restricted use)","3.9e+25 FLOP"]],"hovertemplate":"\u003cb\u003e%{customdata[0]}\u003c\u002fb\u003e\u003cbr\u003e%{x|%d %b %Y}\u003cbr\u003eOrganisation: %{customdata[1]}\u003cbr\u003eAccess: %{customdata[2]}\u003cbr\u003eTraining compute: %{customdata[3]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#2a78d6","line":{"color":"#fcfcfb","width":2},"size":11},"mode":"markers+text","name":"Open weights (downloadable)","text":["","","","GPT-2","","","","","","","","","","Falcon-180B","Nemotron-4 340B","Llama 3.1-405B",""],"textfont":{"color":"#52514e","size":11},"textposition":["top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","bottom center","top center","top center","top center"],"x":["2018-05-02T00:00:00.000000","2018-09-28T00:00:00.000000","2019-02-14T00:00:00.000000","2019-02-14T00:00:00.000000","2019-05-29T00:00:00.000000","2019-06-01T00:00:00.000000","2019-07-01T00:00:00.000000","2019-10-23T00:00:00.000000","2019-10-23T00:00:00.000000","2019-11-05T00:00:00.000000","2020-06-17T00:00:00.000000","2020-10-20T00:00:00.000000","2021-01-11T00:00:00.000000","2023-09-06T00:00:00.000000","2024-06-14T00:00:00.000000","2024-07-23T00:00:00.000000","2025-03-18T00:00:00.000000"],"y":["Meta","Other","OpenAI","OpenAI","Other","Other","Meta","Google (incl. DeepMind)","Google (incl. DeepMind)","Meta","OpenAI","Google (incl. DeepMind)","Google (incl. DeepMind)","Other","Nvidia","Meta","Nvidia"],"type":"scatter"},{"customdata":[["AlphaGo Fan","DeepMind","Unreleased","3.8e+20 FLOP"],["SAF R-CNN","Beijing Institute of Technology,Sun Yat-sen University,Panasonic R&D,National University of Singapore","Unreleased","1.2e+19 FLOP"],["AlphaGo Lee","DeepMind","Unreleased","1.9e+21 FLOP"],["GNMT","Google","Hosted access (no API)","6.6e+21 FLOP"],["AlphaGo Zero","DeepMind","Unreleased","6.5e+20 FLOP"],["Megatron-BERT","Nvidia","Unreleased","2.2e+22 FLOP"],["Megatron-LM (8.3B)","Nvidia","Unreleased","9.1e+21 FLOP"],["AlphaStar","DeepMind","Unreleased","1.1e+23 FLOP"],["Noisy Student (L2)","Carnegie Mellon University (CMU),Google","Unreleased","2.6e+22 FLOP"],["OpenAI Five","OpenAI","Unreleased","6.7e+22 FLOP"],["Meena","Google Brain","Unreleased","1.1e+23 FLOP"],["GPT-3 175B (davinci)","OpenAI","API access","3.1e+23 FLOP"],["GShard (dense)","Google","Unreleased","4.8e+22 FLOP"],["Wu Dao 2.0","Beijing Academy of Artificial Intelligence \u002f BAAI","API access","1.5e+24 FLOP"],["Jurassic-1-Jumbo","AI21 Labs","API access","3.7e+23 FLOP"],["FLAN 137B","Google Research","Unreleased","2.0e+24 FLOP"],["HyperCLOVA 204B","NAVER","Hosted access (no API)","2.0e+23 FLOP"],["Megatron-Turing NLG 530B","Microsoft,Nvidia","Unreleased","8.6e+23 FLOP"],["Yuan 1.0","Inspur","API access","3.5e+23 FLOP"],["Gopher (280B)","DeepMind","Unreleased","6.3e+23 FLOP"],["EXAONE 1.0","LG","Unreleased","1.7e+24 FLOP"],["ERNIE 3.0 Titan","Baidu,Peng Cheng Laboratory","Hosted access (no API)","1.0e+24 FLOP"],["GPT-3.5 (davinci-002)","OpenAI","API access","2.6e+24 FLOP"],["PaLM (540B)","Google Research","Unreleased","2.5e+24 FLOP"],["Minerva (540B)","Google","Unreleased","2.7e+24 FLOP"],["Flan-PaLM 540B","Google","Unreleased","2.5e+24 FLOP"],["U-PaLM (540B)","Google","Unreleased","2.5e+24 FLOP"],["GPT-4 (Mar 2023)","OpenAI","API access","2.1e+25 FLOP"],["SenseChat","SenseTime","API access","3.9e+24 FLOP"],["PaLM 2","Google","API access","7.3e+24 FLOP"],["GPT-4 (Jun 2023)","OpenAI","API access","2.1e+25 FLOP"],["Claude 2","Anthropic","API access","3.9e+24 FLOP"],["Amazon Titan","Amazon","API access","4.8e+24 FLOP"],["GPT-4 Turbo (Nov 2023)","OpenAI","API access","n\u002fa"],["Inflection-2","Inflection AI","Hosted access (no API)","1.0e+25 FLOP"],["Gemini 1.0 Ultra","Google DeepMind","API access","5.0e+25 FLOP"],["GLM-4 (0116)","Z.ai (Zhipu AI)","API access","n\u002fa"],["Gemini 1.5 Pro","Google DeepMind","API access","n\u002fa"],["Claude 3 Opus","Anthropic","API access","n\u002fa"],["GPT-4 Turbo (Apr 2024)","OpenAI","API access","n\u002fa"],["GPT-4o","OpenAI","API access","n\u002fa"],["Claude 3.5 Sonnet","Anthropic","API access","2.7e+25 FLOP"],["GPT-4o (Aug 2024)","OpenAI","API access","n\u002fa"],["Grok-2","xAI","API access","3.0e+25 FLOP"],["GLM-4-Plus","Z.ai (Zhipu AI)","API access","n\u002fa"],["GPT-4o (Nov 2024)","OpenAI","API access","n\u002fa"],["GPT-4o (Jan 2025)","OpenAI","API access","n\u002fa"],["Grok 3","xAI","API access","3.5e+26 FLOP"],["GPT-4.5","OpenAI","API access","3.8e+26 FLOP"],["GPT-4o (Mar 2025)","OpenAI","API access","n\u002fa"],["Llama 4 Behemoth (preview)","Meta AI","Unreleased","5.2e+25 FLOP"],["Grok 4","xAI","API access","5.0e+26 FLOP"],["GPT-6 Astra","OpenAI","API access","9.4e+26 FLOP"]],"hovertemplate":"\u003cb\u003e%{customdata[0]}\u003c\u002fb\u003e\u003cbr\u003e%{x|%d %b %Y}\u003cbr\u003eOrganisation: %{customdata[1]}\u003cbr\u003eAccess: %{customdata[2]}\u003cbr\u003eTraining compute: %{customdata[3]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#eb6834","line":{"color":"#fcfcfb","width":2},"size":11},"mode":"markers+text","name":"Closed (API, hosted or unreleased)","text":["","","","","AlphaGo Zero","","","","","","","GPT-3","","","","","","","","","","","","PaLM","","","","GPT-4","","","","","","","","Gemini 1.0 Ultra","","","Claude 3 Opus","","","","","","","","","Grok 3","","","Llama 4 Behemoth","","GPT-6 Astra"],"textfont":{"color":"#52514e","size":11},"textposition":["top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","bottom center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","bottom center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","bottom center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","top center","bottom center","top center","top center"],"x":["2015-10-01T00:00:00.000000","2015-10-28T00:00:00.000000","2016-01-27T00:00:00.000000","2016-09-26T00:00:00.000000","2017-10-18T00:00:00.000000","2019-09-17T00:00:00.000000","2019-09-17T00:00:00.000000","2019-10-30T00:00:00.000000","2019-11-11T00:00:00.000000","2019-12-13T00:00:00.000000","2020-01-28T00:00:00.000000","2020-05-28T00:00:00.000000","2020-06-30T00:00:00.000000","2021-05-31T00:00:00.000000","2021-08-11T00:00:00.000000","2021-09-03T00:00:00.000000","2021-09-10T00:00:00.000000","2021-10-11T00:00:00.000000","2021-10-12T00:00:00.000000","2021-12-08T00:00:00.000000","2021-12-14T00:00:00.000000","2021-12-23T00:00:00.000000","2022-03-15T00:00:00.000000","2022-04-04T00:00:00.000000","2022-06-29T00:00:00.000000","2022-10-20T00:00:00.000000","2022-10-20T00:00:00.000000","2023-03-15T00:00:00.000000","2023-04-10T00:00:00.000000","2023-05-10T00:00:00.000000","2023-06-13T00:00:00.000000","2023-07-11T00:00:00.000000","2023-09-28T00:00:00.000000","2023-11-06T00:00:00.000000","2023-11-22T00:00:00.000000","2023-12-06T00:00:00.000000","2024-01-17T00:00:00.000000","2024-02-15T00:00:00.000000","2024-03-04T00:00:00.000000","2024-04-09T00:00:00.000000","2024-05-13T00:00:00.000000","2024-06-20T00:00:00.000000","2024-08-06T00:00:00.000000","2024-08-13T00:00:00.000000","2024-08-29T00:00:00.000000","2024-11-20T00:00:00.000000","2025-01-29T00:00:00.000000","2025-02-17T00:00:00.000000","2025-02-27T00:00:00.000000","2025-03-27T00:00:00.000000","2025-04-05T00:00:00.000000","2025-07-09T00:00:00.000000","2026-09-03T00:00:00.000000"],"y":["Google (incl. DeepMind)","Other","Google (incl. DeepMind)","Google (incl. DeepMind)","Google (incl. DeepMind)","Nvidia","Nvidia","Google (incl. DeepMind)","Other","OpenAI","Google (incl. DeepMind)","OpenAI","Google (incl. DeepMind)","Other","Other","Google (incl. DeepMind)","Other","Other","Other","Google (incl. DeepMind)","Other","Other","OpenAI","Google (incl. DeepMind)","Google (incl. DeepMind)","Google (incl. DeepMind)","Google (incl. DeepMind)","OpenAI","Other","Google (incl. DeepMind)","OpenAI","Anthropic","Other","OpenAI","Other","Google (incl. DeepMind)","Other","Google (incl. DeepMind)","Anthropic","OpenAI","OpenAI","Anthropic","OpenAI","xAI","Other","OpenAI","OpenAI","xAI","OpenAI","OpenAI","Meta","xAI","OpenAI"],"type":"scatter"},{"customdata":[["MSRA (C, PReLU)","Microsoft Research","not recorded","2.4e+19 FLOP"],["Inception v3","Google,University College London (UCL)","not recorded","1.0e+20 FLOP"],["DeepSpeech2 (English)","Baidu Research - Silicon Valley AI Lab","not recorded","2.6e+19 FLOP"],["BIG LSTM+CNN INPUTS","Google Brain","not recorded","1.0e+20 FLOP"],["Xception","Google","not recorded","4.4e+20 FLOP"],["NASv3 (CIFAR-10)","Google Brain","not recorded","2.2e+21 FLOP"],["JFT","Google Research,Carnegie Mellon University (CMU)","not recorded","8.4e+20 FLOP"],["OpenAI TI7 DOTA 1v1","OpenAI","not recorded","6.0e+20 FLOP"]],"hovertemplate":"\u003cb\u003e%{customdata[0]}\u003c\u002fb\u003e\u003cbr\u003e%{x|%d %b %Y}\u003cbr\u003eOrganisation: %{customdata[1]}\u003cbr\u003eAccess: %{customdata[2]}\u003cbr\u003eTraining compute: %{customdata[3]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#a8a7a1","line":{"color":"#fcfcfb","width":2},"size":11},"mode":"markers+text","name":"Accessibility not recorded","text":["","","","","","","",""],"textfont":{"color":"#52514e","size":11},"textposition":["top center","top center","top center","top center","top center","top center","top center","top center"],"x":["2015-02-06T00:00:00.000000","2015-12-02T00:00:00.000000","2015-12-08T00:00:00.000000","2016-02-11T00:00:00.000000","2016-10-07T00:00:00.000000","2016-11-05T00:00:00.000000","2017-07-10T00:00:00.000000","2017-08-11T00:00:00.000000"],"y":["Other","Google (incl. DeepMind)","Other","Google (incl. DeepMind)","Google (incl. DeepMind)","Google (incl. DeepMind)","Google (incl. DeepMind)","OpenAI"],"type":"scatter"},{"customdata":[["Gemini 4 Carbon","Google DeepMind","Unreleased"],["Gemini 4 Argon","Google DeepMind","Limited access"],["Claude Mythos 5","Anthropic","Unreleased"],["GPT-5.5 Cyber","OpenAI","Unreleased"],["GPT-5.4-Cyber","OpenAI","Limited access"],["Claude Mythos Preview","Anthropic","Limited access"]],"hovertemplate":"\u003cb\u003e%{customdata[0]}\u003c\u002fb\u003e\u003cbr\u003e%{x|%d %b %Y}\u003cbr\u003eOrganisation: %{customdata[1]}\u003cbr\u003eEpoch access label: %{customdata[2]}\u003cextra\u003e\u003c\u002fextra\u003e","marker":{"color":"#fcfcfb","line":{"color":"#eb6834","width":2.5},"size":13,"symbol":"diamond"},"mode":"markers+text","name":"Restricted 2026 release (Notable file)","text":["Gemini 4 Carbon","Gemini 4 Argon","Claude Mythos 5","GPT-5.5 Cyber","GPT-5.4-Cyber","Claude Mythos Preview"],"textfont":{"color":"#52514e","size":11},"textposition":["bottom left","top left","bottom left","bottom left","top left","top left"],"x":["2026-10-28T00:00:00.000000","2026-09-30T00:00:00.000000","2026-06-09T00:00:00.000000","2026-05-07T00:00:00.000000","2026-04-14T00:00:00.000000","2026-04-07T00:00:00.000000"],"y":["Google (incl. DeepMind)","Google (incl. DeepMind)","Anthropic","OpenAI","OpenAI","Anthropic"],"type":"scatter"}],                        {"template":{"data":{"histogram2dcontour":[{"type":"histogram2dcontour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"choropleth":[{"type":"choropleth","colorbar":{"outlinewidth":0,"ticks":""}}],"histogram2d":[{"type":"histogram2d","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"heatmap":[{"type":"heatmap","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"contourcarpet":[{"type":"contourcarpet","colorbar":{"outlinewidth":0,"ticks":""}}],"contour":[{"type":"contour","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"surface":[{"type":"surface","colorbar":{"outlinewidth":0,"ticks":""},"colorscale":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]]}],"mesh3d":[{"type":"mesh3d","colorbar":{"outlinewidth":0,"ticks":""}}],"scatter":[{"fillpattern":{"fillmode":"overlay","size":10,"solidity":0.2},"type":"scatter"}],"parcoords":[{"type":"parcoords","line":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolargl":[{"type":"scatterpolargl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"bar":[{"error_x":{"color":"#2a3f5f"},"error_y":{"color":"#2a3f5f"},"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"bar"}],"scattergeo":[{"type":"scattergeo","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterpolar":[{"type":"scatterpolar","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"histogram":[{"marker":{"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"histogram"}],"scattergl":[{"type":"scattergl","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatter3d":[{"type":"scatter3d","line":{"colorbar":{"outlinewidth":0,"ticks":""}},"marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattermap":[{"type":"scattermap","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scatterternary":[{"type":"scatterternary","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"scattercarpet":[{"type":"scattercarpet","marker":{"colorbar":{"outlinewidth":0,"ticks":""}}}],"carpet":[{"aaxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"baxis":{"endlinecolor":"#2a3f5f","gridcolor":"white","linecolor":"white","minorgridcolor":"white","startlinecolor":"#2a3f5f"},"type":"carpet"}],"table":[{"cells":{"fill":{"color":"#EBF0F8"},"line":{"color":"white"}},"header":{"fill":{"color":"#C8D4E3"},"line":{"color":"white"}},"type":"table"}],"barpolar":[{"marker":{"line":{"color":"#E5ECF6","width":0.5},"pattern":{"fillmode":"overlay","size":10,"solidity":0.2}},"type":"barpolar"}],"pie":[{"automargin":true,"type":"pie"}]},"layout":{"autotypenumbers":"strict","colorway":["#636efa","#EF553B","#00cc96","#ab63fa","#FFA15A","#19d3f3","#FF6692","#B6E880","#FF97FF","#FECB52"],"font":{"color":"#2a3f5f"},"hovermode":"closest","hoverlabel":{"align":"left"},"paper_bgcolor":"white","plot_bgcolor":"#E5ECF6","polar":{"bgcolor":"#E5ECF6","angularaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"radialaxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"ternary":{"bgcolor":"#E5ECF6","aaxis":{"gridcolor":"white","linecolor":"white","ticks":""},"baxis":{"gridcolor":"white","linecolor":"white","ticks":""},"caxis":{"gridcolor":"white","linecolor":"white","ticks":""}},"coloraxis":{"colorbar":{"outlinewidth":0,"ticks":""}},"colorscale":{"sequential":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"sequentialminus":[[0.0,"#0d0887"],[0.1111111111111111,"#46039f"],[0.2222222222222222,"#7201a8"],[0.3333333333333333,"#9c179e"],[0.4444444444444444,"#bd3786"],[0.5555555555555556,"#d8576b"],[0.6666666666666666,"#ed7953"],[0.7777777777777778,"#fb9f3a"],[0.8888888888888888,"#fdca26"],[1.0,"#f0f921"]],"diverging":[[0,"#8e0152"],[0.1,"#c51b7d"],[0.2,"#de77ae"],[0.3,"#f1b6da"],[0.4,"#fde0ef"],[0.5,"#f7f7f7"],[0.6,"#e6f5d0"],[0.7,"#b8e186"],[0.8,"#7fbc41"],[0.9,"#4d9221"],[1,"#276419"]]},"xaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"yaxis":{"gridcolor":"white","linecolor":"white","ticks":"","title":{"standoff":15},"zerolinecolor":"white","automargin":true,"zerolinewidth":2},"scene":{"xaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"yaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2},"zaxis":{"backgroundcolor":"#E5ECF6","gridcolor":"white","linecolor":"white","showbackground":true,"ticks":"","zerolinecolor":"white","gridwidth":2}},"shapedefaults":{"line":{"color":"#2a3f5f"}},"annotationdefaults":{"arrowcolor":"#2a3f5f","arrowhead":0,"arrowwidth":1},"geo":{"bgcolor":"white","landcolor":"#E5ECF6","subunitcolor":"white","showland":true,"showlakes":true,"lakecolor":"white"},"title":{"x":0.05}}},"shapes":[{"fillcolor":"#f0efec","layer":"below","line":{"width":0},"opacity":0.9,"type":"rect","x0":"2015-01-01T00:00:00","x1":"2019-01-01T00:00:00","xref":"x","y0":0,"y1":1,"yref":"y domain"},{"fillcolor":"#fcfcfb","layer":"below","line":{"width":0},"opacity":0.9,"type":"rect","x0":"2019-01-01T00:00:00","x1":"2022-01-01T00:00:00","xref":"x","y0":0,"y1":1,"yref":"y domain"},{"fillcolor":"#f0efec","layer":"below","line":{"width":0},"opacity":0.9,"type":"rect","x0":"2022-01-01T00:00:00","x1":"2027-01-01T00:00:00","xref":"x","y0":0,"y1":1,"yref":"y domain"}],"annotations":[{"font":{"color":"#0b0b0b","size":12.5},"showarrow":false,"text":"\u003cb\u003e2015\u201318: access unknown for 8 of 15\u003c\u002fb\u003e","x":"2016-12-31T12:00:00","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#0b0b0b","size":12.5},"showarrow":false,"text":"\u003cb\u003e2019\u201321: 11 of 28 open (39%)\u003c\u002fb\u003e","x":"2020-07-02T00:00:00","y":1.0,"yanchor":"bottom","yref":"paper"},{"font":{"color":"#0b0b0b","size":12.5},"showarrow":false,"text":"\u003cb\u003e2022\u201326: 4 of 35 open (11%)\u003c\u002fb\u003e","x":"2024-07-02T00:00:00","y":1.0,"yanchor":"bottom","yref":"paper"}],"font":{"family":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","size":13,"color":"#52514e"},"hoverlabel":{"font":{"family":"-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif","size":13,"color":"#0b0b0b"},"bgcolor":"white","bordercolor":"#e6e5e1"},"margin":{"l":150,"r":20,"t":40,"b":20},"xaxis":{"range":["2014-10-01T00:00:00","2027-04-30T00:00:00"],"gridcolor":"#e6e5e1","tickformat":"%Y","dtick":"M12","showline":false,"zeroline":false},"yaxis":{"tickfont":{"color":"#0b0b0b","size":13},"categoryorder":"array","categoryarray":["Other","Nvidia","Meta","xAI","Anthropic","OpenAI","Google (incl. DeepMind)"],"gridcolor":"#e6e5e1","zeroline":false},"legend":{"orientation":"h","yanchor":"top","y":-0.04,"x":0},"paper_bgcolor":"#fcfcfb","plot_bgcolor":"#fcfcfb","height":660,"hovermode":"closest"},                        {"displaylogo": false, "responsive": true}                    )                };            </script>        </div>
+<ul class="notes"><li><b>Frontier</b> follows Epoch AI&rsquo;s definition: top 5 by training compute at release. It says nothing about capability.</li><li><b>Closed</b> groups Epoch&rsquo;s labels API access, hosted access, limited access and unreleased; <b>open</b> means downloadable weights.</li><li><b>Limit:</b> the frontier list has only 7 models in 2025 and 1 in 2026, because many recent models have no compute estimate. The diamonds add 2026 models that Epoch labels limited-access or unreleased, taken from its separate Notable file (OpenAI, Anthropic and Google only).</li><li>Lanes use the first organisation listed for each model; Google, DeepMind, Brain and Research are merged. Descriptive only: the data do not show <i>why</i> models became closed.</li></ul>
+<details><summary>Show the data behind this chart (table view)</summary><table class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th>Model</th>
+      <th>Publication date</th>
+      <th>Lane</th>
+      <th>Open/closed group</th>
+      <th>Epoch access label</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MSRA (C, PReLU)</td>
+      <td>2015-02-06</td>
+      <td>Other</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>AlphaGo Fan</td>
+      <td>2015-10-01</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>SAF R-CNN</td>
+      <td>2015-10-28</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Inception v3</td>
+      <td>2015-12-02</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>DeepSpeech2 (English)</td>
+      <td>2015-12-08</td>
+      <td>Other</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>AlphaGo Lee</td>
+      <td>2016-01-27</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>BIG LSTM+CNN INPUTS</td>
+      <td>2016-02-11</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>GNMT</td>
+      <td>2016-09-26</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Hosted access (no API)</td>
+    </tr>
+    <tr>
+      <td>Xception</td>
+      <td>2016-10-07</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>NASv3 (CIFAR-10)</td>
+      <td>2016-11-05</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>JFT</td>
+      <td>2017-07-10</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>OpenAI TI7 DOTA 1v1</td>
+      <td>2017-08-11</td>
+      <td>OpenAI</td>
+      <td>Unknown</td>
+      <td>NaN</td>
+    </tr>
+    <tr>
+      <td>AlphaGo Zero</td>
+      <td>2017-10-18</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>ResNeXt-101 32x48d</td>
+      <td>2018-05-02</td>
+      <td>Meta</td>
+      <td>Open weights</td>
+      <td>Open weights (non-commercial)</td>
+    </tr>
+    <tr>
+      <td>BigGAN-deep 512x512</td>
+      <td>2018-09-28</td>
+      <td>Other</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>GPT-2 (355M)</td>
+      <td>2019-02-14</td>
+      <td>OpenAI</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>GPT-2 (774M)</td>
+      <td>2019-02-14</td>
+      <td>OpenAI</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>Grover-Mega</td>
+      <td>2019-05-29</td>
+      <td>Other</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>XLNet</td>
+      <td>2019-06-01</td>
+      <td>Other</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>RoBERTa Large</td>
+      <td>2019-07-01</td>
+      <td>Meta</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>Megatron-BERT</td>
+      <td>2019-09-17</td>
+      <td>Nvidia</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Megatron-LM (8.3B)</td>
+      <td>2019-09-17</td>
+      <td>Nvidia</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>T5-11B</td>
+      <td>2019-10-23</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>T5-3B</td>
+      <td>2019-10-23</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>AlphaStar</td>
+      <td>2019-10-30</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>XLM-RoBERTa</td>
+      <td>2019-11-05</td>
+      <td>Meta</td>
+      <td>Open weights</td>
+      <td>Open weights (non-commercial)</td>
+    </tr>
+    <tr>
+      <td>Noisy Student (L2)</td>
+      <td>2019-11-11</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>OpenAI Five</td>
+      <td>2019-12-13</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Meena</td>
+      <td>2020-01-28</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>GPT-3 175B (davinci)</td>
+      <td>2020-05-28</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>iGPT-XL</td>
+      <td>2020-06-17</td>
+      <td>OpenAI</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>GShard (dense)</td>
+      <td>2020-06-30</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>mT5-XXL</td>
+      <td>2020-10-20</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>Switch</td>
+      <td>2021-01-11</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>Wu Dao 2.0</td>
+      <td>2021-05-31</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Jurassic-1-Jumbo</td>
+      <td>2021-08-11</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>FLAN 137B</td>
+      <td>2021-09-03</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>HyperCLOVA 204B</td>
+      <td>2021-09-10</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Hosted access (no API)</td>
+    </tr>
+    <tr>
+      <td>Megatron-Turing NLG 530B</td>
+      <td>2021-10-11</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Yuan 1.0</td>
+      <td>2021-10-12</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Gopher (280B)</td>
+      <td>2021-12-08</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>EXAONE 1.0</td>
+      <td>2021-12-14</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>ERNIE 3.0 Titan</td>
+      <td>2021-12-23</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Hosted access (no API)</td>
+    </tr>
+    <tr>
+      <td>GPT-3.5 (davinci-002)</td>
+      <td>2022-03-15</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>PaLM (540B)</td>
+      <td>2022-04-04</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Minerva (540B)</td>
+      <td>2022-06-29</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Flan-PaLM 540B</td>
+      <td>2022-10-20</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>U-PaLM (540B)</td>
+      <td>2022-10-20</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>GPT-4 (Mar 2023)</td>
+      <td>2023-03-15</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>SenseChat</td>
+      <td>2023-04-10</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>PaLM 2</td>
+      <td>2023-05-10</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4 (Jun 2023)</td>
+      <td>2023-06-13</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Claude 2</td>
+      <td>2023-07-11</td>
+      <td>Anthropic</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Falcon-180B</td>
+      <td>2023-09-06</td>
+      <td>Other</td>
+      <td>Open weights</td>
+      <td>Open weights (restricted use)</td>
+    </tr>
+    <tr>
+      <td>Amazon Titan</td>
+      <td>2023-09-28</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4 Turbo (Nov 2023)</td>
+      <td>2023-11-06</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Inflection-2</td>
+      <td>2023-11-22</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>Hosted access (no API)</td>
+    </tr>
+    <tr>
+      <td>Gemini 1.0 Ultra</td>
+      <td>2023-12-06</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GLM-4 (0116)</td>
+      <td>2024-01-17</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Gemini 1.5 Pro</td>
+      <td>2024-02-15</td>
+      <td>Google (incl. DeepMind)</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Claude 3 Opus</td>
+      <td>2024-03-04</td>
+      <td>Anthropic</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4 Turbo (Apr 2024)</td>
+      <td>2024-04-09</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4o</td>
+      <td>2024-05-13</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Nemotron-4 340B</td>
+      <td>2024-06-14</td>
+      <td>Nvidia</td>
+      <td>Open weights</td>
+      <td>Open weights (unrestricted)</td>
+    </tr>
+    <tr>
+      <td>Claude 3.5 Sonnet</td>
+      <td>2024-06-20</td>
+      <td>Anthropic</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Llama 3.1-405B</td>
+      <td>2024-07-23</td>
+      <td>Meta</td>
+      <td>Open weights</td>
+      <td>Open weights (restricted use)</td>
+    </tr>
+    <tr>
+      <td>GPT-4o (Aug 2024)</td>
+      <td>2024-08-06</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Grok-2</td>
+      <td>2024-08-13</td>
+      <td>xAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GLM-4-Plus</td>
+      <td>2024-08-29</td>
+      <td>Other</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4o (Nov 2024)</td>
+      <td>2024-11-20</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4o (Jan 2025)</td>
+      <td>2025-01-29</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Grok 3</td>
+      <td>2025-02-17</td>
+      <td>xAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-4.5</td>
+      <td>2025-02-27</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Llama Nemotron Ultra 253B</td>
+      <td>2025-03-18</td>
+      <td>Nvidia</td>
+      <td>Open weights</td>
+      <td>Open weights (restricted use)</td>
+    </tr>
+    <tr>
+      <td>GPT-4o (Mar 2025)</td>
+      <td>2025-03-27</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>Llama 4 Behemoth (preview)</td>
+      <td>2025-04-05</td>
+      <td>Meta</td>
+      <td>Closed</td>
+      <td>Unreleased</td>
+    </tr>
+    <tr>
+      <td>Grok 4</td>
+      <td>2025-07-09</td>
+      <td>xAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+    <tr>
+      <td>GPT-6 Astra</td>
+      <td>2026-09-03</td>
+      <td>OpenAI</td>
+      <td>Closed</td>
+      <td>API access</td>
+    </tr>
+  </tbody>
+</table></details>
+<footer>Data: Epoch AI, &ldquo;Data on AI Models&rdquo; and &ldquo;Capabilities &amp; benchmarking&rdquo;, epoch.ai, accessed 30 Oct 2026, licensed CC BY 4.0 (changes: filtered and regrouped). PEC 2, Data Visualization (UOC).</footer>
+</main></body></html>
